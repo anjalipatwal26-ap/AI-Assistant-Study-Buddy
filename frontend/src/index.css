@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  /* Enables backface hiding for pure 3D rotations */
+  [backface-visibility\:hidden] {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+}
